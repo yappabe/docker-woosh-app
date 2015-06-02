@@ -1,5 +1,7 @@
 FROM debian:jessie
 
+MAINTAINER Joeri Verdeyen <joeriv@yappa.be>
+
 RUN mkdir -p /var/www/app/tmp/cache/acl && \
     mkdir -p /var/www/app/tmp/cache/models && \
     mkdir -p /var/www/app/tmp/cache/persistent && \
