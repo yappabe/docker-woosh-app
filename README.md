@@ -4,7 +4,7 @@
 
 Add the following to your docker-compose.yml file:
 
-```
+```YAML
 app:
     image: yappabe/woosh-app
     volumes:
